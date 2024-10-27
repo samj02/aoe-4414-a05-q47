@@ -47,14 +47,14 @@ p = float('nan')
 
 # Parse Script Arguments
 if len(sys.argv) == 9:
-        c_in = float(sys.argv[1])
-        h_in = float(sys.argv[2])
-        w_in = float(sys.argv[3])
-        n_filt = float(sys.argv[4])
-        h_filt = float(sys.argv[5])
-        w_filt = float(sys.argv[6])
-        s = float(sys.argv[7])
-        p = float(sys.argv[8])
+    c_in = float(sys.argv[1])
+    h_in = float(sys.argv[2])
+    w_in = float(sys.argv[3])
+    n_filt = float(sys.argv[4])
+    h_filt = float(sys.argv[5])
+    w_filt = float(sys.argv[6])
+    s = float(sys.argv[7])
+    p = float(sys.argv[8])
 else:
     print( \
         'python3 conv_ops.py c_in h_in w_in n_filt h_filt w_filt s p' \
